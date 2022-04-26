@@ -4,7 +4,9 @@ import truthData from "../datas/truthData";
 
 export default function TruthContent() {
   const truthElements = truthData.map((truth) => {
-    return <Truth setup={truth.setup} punchline={truth.punchline} />;
+    return (
+      <Truth key={truth.id} setup={truth.setup} punchline={truth.punchline} />
+    );
   });
   return (
     <>
