@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+:root {
+  --darkBlack: #21222a;
+  --darkGrey: #282d35;
+  --flashyBlue: #61dafb;
+}
+
+body {
+  margin: 0;
+  background-color: var(--darkGrey);
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+main {
+  padding: 57px 27px;
+  background-image: url("../images/reactjs-icon__grey.png");
+  background-repeat: no-repeat;
+  background-position: right 75%;
+  background-attachment: scroll;
+}
+.main--facts h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 39px;
+  line-height: 47px;
+  letter-spacing: -0.05em;
+}
+.nav {
+  background-color: var(--darkBlack);
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 25px 30px;
+  height: 90px;
+}
+.nav--logo {
+  display: flex;
+}
+.nav img {
+  margin: auto;
+  margin-right: 12px;
+}
+.nav .brand {
+  color: var(--flashyBlue);
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: -0.05em;
+  margin: auto;
+}
+.nav--title {
+  display: flex;
+}
+.nav--title h4 {
+  text-align: right;
+  font-weight: 600;
+  margin: auto;
+}
+
+.main--facts li {
+  padding-block: 10px;
+}
+.main--facts li::marker {
+  font-size: large;
+  color: var(--flashyBlue);
+}
+.bold {
+  font-weight: bold;
+}
+.italic {
+  font-style: italic;
+}
+.question {
+  background-color: cadetblue;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+.reponse {
+  color: cadetblue;
+  background-color: white;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+}
